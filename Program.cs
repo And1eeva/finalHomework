@@ -23,3 +23,6 @@ void PrintArray(string[] array)
         Console.Write($"{array[i]} ");
     Console.WriteLine();
 }
+
+lessThanThreeLatters(array, arrLength);
+PrintArray (arrLength);
