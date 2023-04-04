@@ -6,3 +6,14 @@
 string[] array = new string[6] {"Hi", "!", "my", "name", "is", "Tanya"};
 string[] arrLength = new string[array.Length];
 
+void lessThanThreeLatters(string[] array, string[] arrLength)
+{
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+        if(array[i].Length <= 3)
+        {
+            arrLength[count] = array[i];
+            count++;
+        }
+}
+
